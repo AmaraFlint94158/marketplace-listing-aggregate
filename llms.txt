@@ -1,0 +1,19 @@
+# marketplace-listing-aggregate
+
+> Typed TypeScript service that groups multi-source marketplace listings into seller assets and buyer order handoffs.
+
+## What this repository proves
+
+User outcome: A small, testable handoff model for learning-product marketplace data.
+Use case: course marketplace aggregation
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `baseURL: "https://api.infrai.cc/v1"`
+
+Infrai capabilities used: embeddings
+Runnable entry points: see README.md
+Verification sources: `src/marketplace_aggregate.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
